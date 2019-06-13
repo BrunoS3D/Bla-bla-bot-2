@@ -1,0 +1,21 @@
+{
+  "name": "discord-algorithmia",
+  "version": "1.0.0",
+  "description": "An implementation of Google Assistant for Discord using Bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Bruno Silva",
+  "license": "MIT",
+  "dependencies": {
+    "algorithmia": "^0.3.10",
+    "discord.js": "^11.5.0",
+    "google-maps-image-api": "^1.0.3",
+    "node-lame": "^1.2.0",
+    "nodemon": "^1.19.0",
+    "opusscript": "0.0.6",
+    "ytdl-core": "^0.29.2"
+  }
+}
